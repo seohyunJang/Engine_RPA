@@ -1,3 +1,4 @@
+
 # Engine_RPA
 : (HHI) Engine RPA 
 
@@ -10,11 +11,9 @@
 # How to Use?
 ## 1. Engine Parameter auto-transition
   - Prerequisite :  
-      실행파일 (.exe)
-      Ref case 폴더 (함께 복사해야 할 파일 리스트 - 내부에 spray.in 파일 必, exe 시랭파일과 같은 경로상에 위치)
-      input file 폴더 (spray.in 파일 기준, 파라미터 변경값을 포함한 xlsx 파일 존재)
-      output file 폴더 
-    
+![image](https://github.com/seohyunJang/Engine_RPA/assets/48125526/66d848cd-e1f7-45c6-b340-1ce0c718090f)
+
+
   - 실행방법 :  
       1. exe 파일 실행 (일정 시간 기다림 필요, 화면이 안 뜰 때 Enter 입력)
       2. 가이드에 따라 input file 경로 입력 (파일 탐색기 주소 Ctrl+C, Ctrl+V)
@@ -26,3 +25,8 @@
   - 파라미터 변경 정보를 포함한 xlsx 파일의 sheet 이름은  
     (Param_update_v5) param{i}, i는 int Ex) param1, param10, param99
     (Param_update_v5_spray) case{i}, i는 int Ex) case1, case10, case99
+
+# File Location  
+  (보안상 관련 폴더는 EFAM 공유 폴더 내에 위치해있습니다)  
+  Z:\시스템성능연구실\9_개인폴더\장서현\대형RPA\[RPA]Param_update
+
