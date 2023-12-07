@@ -21,6 +21,7 @@
       4. sheet에 따라 자동 처리, 결과물 output
    
 # Caution!
+  - Ref case의 spray.in 파일을 기준으로 설계되었기 때문에, 해당 파일이 바뀌면 안됨!
   - 실행파일과 Ref case 폴더는 같은 경로상에 위치!
   - 파라미터 변경 정보를 포함한 xlsx 파일의 sheet 이름은  
     (Param_update_v5) param{i}, i는 int Ex) param1, param10, param99
@@ -28,5 +29,5 @@
 
 # File Location  
   (보안상 관련 폴더는 EFAM 공유 폴더 내에 위치해있습니다)  
-  Z:\시스템성능연구실\9_개인폴더\장서현\대형RPA\[RPA]Param_update
+  *Z:\시스템성능연구실\9_개인폴더\장서현\대형RPA\[RPA]Param_update*
 
